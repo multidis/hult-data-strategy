@@ -2,8 +2,9 @@
 library(tidyverse)
 library(ggplot2)
 
+# Public US DOT data:
 # https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp
-flight_delay <- read_csv("SFO_2019_airline_delay_causes.csv")
+flight_delay <- read_csv("https://raw.githubusercontent.com/multidis/hult-data-strategy/main/read_data/SFO_2019_airline_delay_causes.csv")
 flight_delay
 
 # transform grouping by carrier
