@@ -1,0 +1,11 @@
+Date,Minimum temperature (�C),Maximum temperature (�C),Rainfall (mm),Evaporation (mm),Sunshine (hours),Direction of maximum wind gust ,Speed of maximum wind gust (km/h),Time of maximum wind gust,9am Temperature (�C),9am relative humidity (%),9am cloud amount (oktas),9am wind direction,9am wind speed (km/h),9am MSL pressure (hPa),3pm Temperature (�C),3pm relative humidity (%),3pm cloud amount (oktas),3pm wind direction,3pm wind speed (km/h),3pm MSL pressure (hPa)
+2021-03-1,19.8,30.8,0.2,6.4,9.5,SSW,54,22:36,21.5,95,7,W,9,1010.7,30.1,69,1,ENE,22,1005.7
+2021-03-2,20.1,24.7,0,8.2,7.7,SSW,48,23:41,21.4,78,5,SW,9,1011.5,22,57,5,SSE,26,1012.3
+2021-03-3,18.1,23.5,0.6,7.6,7.9,S,44,08:23,19,69,8,S,20,1015.7,22.9,59,3,SE,20,1015.2
+2021-03-4,16,28.7,0.4,6.8,11.3,ENE,33,15:40,17.8,81,1,WNW,15,1015.1,28.2,56,2,ENE,22,1009.3
+2021-03-5,17.8,25,0.2,8,10.2,SSE,52,10:52,20.1,75,1,WSW,9,1007.4,24.2,52,2,SSE,31,1008.7
+2021-03-6,17.9,24.8,0,8.4,9.3,SSE,37,16:58,19.9,55,7,S,15,1012.9,22.9,48,1,S,17,1012.3
+2021-03-7,16.1,27.3,0,7,9.5,NE,37,17:11,18,75,4,W,15,1015.7,26.6,59,5,E,24,1012.3
+2021-03-8,18,31.2,0,7.6,4.9,WNW,46,16:18,20.9,87,7,WNW,9,1011.9,28.5,56,7,NNW,11,1007.9
+2021-03-9,19.6,28.8,0,6.2,8.4,SSE,39,12:56,21.8,78,7,WNW,17,1011.4,28.3,63,5,SE,24,1012.1
+2021-03-10,20.4,,0,6.6,,,,,21.8,76,5,SE,13,1020.6,27.1,61,6,E,22,1020
