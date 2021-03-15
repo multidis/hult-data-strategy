@@ -15,3 +15,16 @@ flight_delay_comp
 # horizontal bar chart comparison
 ggplot(flight_delay_comp, aes(x=reorder(carrier_name, delayedpct), y=delayedpct)) +
     geom_col() + coord_flip(clip = "off") + labs(x="", y="Percent of flights delayed")
+
+# separate bars above a threshold by color
+ggplot(flight_delay_comp, aes(x=reorder(carrier_name, delayedpct),
+                              y=delayedpct,
+                              fill=(delayedpct > 30))) +
+    geom_col() + coord_flip(clip = "off") + labs(x="", y="Percent of flights delayed")
+
+# remove unnecessary legend for the color fill
+ggplot(flight_delay_comp, aes(x=reorder(carrier_name, delayedpct),
+                              y=delayedpct,
+                              fill=(delayedpct > 30))) +
+    geom_col(show.legend = FALSE) + coord_flip(clip = "off") +
+    labs(x="", y="Percent of flights delayed", title="Narrative here.")
